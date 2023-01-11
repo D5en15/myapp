@@ -29,3 +29,12 @@ function Calculator4() {
 function myalert() {
     alert("hello")
 }
+
+function bmi() {
+    var num1 = document.getElementById("hight").value;
+    var num2 = document.getElementById("width").value;
+    var sh = num1/100;
+    var sumsh = sh*sh;
+    var result = num2 / sumsh;
+    alert(result)
+}
